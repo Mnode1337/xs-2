@@ -1,0 +1,144 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: 'Lato', sans-serif;
+}
+
+button {
+	font-family: 'Lato', sans-serif;
+}
+
+.no-underline {
+	text-decoration: none;
+}
+
+img {
+	display: block;
+}
+
+.bg-brand-teal {
+	background-color: #539d98;
+}
+
+/* 900 is the darkest gray on the color palette */
+.bg-gray-900 {
+	background-color: #121826;
+}
+
+.text-white {
+	color: #fff;
+}
+
+.flex {
+	display: flex;
+}
+
+/* to align things horizontally */
+.justify-between {
+	/* you saw the diff b/t space-bt and space-evenly */
+	justify-content: space-between;
+}
+
+/* to align things horizontally */
+.justify-center {
+	justify-content: center;
+}
+
+/* to align things vertically */
+.items-center {
+	align-items: center;
+}
+
+.m-8 {
+	margin: 2rem;
+}
+
+.p-8 {
+	padding: 0.88rem;
+}
+
+.pt-18 {
+	padding-top: 18px;
+}
+
+.py-18 {
+	padding-top: 18px;
+	padding-bottom: 18px;
+}
+
+.py-8 {
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+
+.px-16 {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.py-12 {
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.px-28 {
+	padding-left: 28px;
+	padding-right: 28px;
+}
+
+.font-lato {
+	font-family: 'Lato', sans-serif;
+}
+
+.px-12 {
+	padding-left: 1.33rem;
+	padding-right: 1.33rem;
+}
+
+.boder-none {
+	border: none;
+}
+
+.rounded-full {
+	border-radius: 9999px;
+}
+
+.font-bold {
+	font-weight: bold;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.text-sm {
+	font-size: 14px;
+}
+
+.w-full {
+	width: 100%;
+}
+
+.relative {
+	position: relative;
+}
+
+.z-10 {
+	z-index: 10;
+}
+
+.object-cover {
+	object-fit: cover;
+}
+
+.text-brand-teal {
+	color: #90cac7;
+}
