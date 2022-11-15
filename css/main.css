@@ -160,5 +160,12 @@ img {
 	margin-right: auto;
 }
 
-@media (min-width: 600px) {
+.text-36px {
+	font-size: 36px;
+}
+
+@media (min-width: 640px) {
+	.text-60px {
+		font-size: 60px;
+	}
 }
